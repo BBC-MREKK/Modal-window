@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Модальные окна</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="buttons-container">
+    <button onclick="openModal('modal1')">Открыть Модальное Окно 1</button>
+    <button onclick="openModal('modal2')">Открыть Модальное Окно 2</button>
+    <button onclick="openModal('modal3')">Открыть Модальное Окно 3</button>
+  </div>
+
+  <div id="modal1" class="modal">
+    <p>Это Модальное Окно 1</p>
+    <button onclick="closeModal('modal1')">Закрыть</button>
+  </div>
+
+  <div id="modal2" class="modal">
+    <p>Это Модальное Окно 2</p>
+    <button onclick="closeModal('modal2')">Закрыть</button>
+  </div>
+
+  <div id="modal3" class="modal">
+    <p>Это Модальное Окно 3</p>
+    <button onclick="closeModal('modal3')">Закрыть</button>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
